@@ -10,6 +10,8 @@ int gcd(int a, int b) {
     }
 }
 
+//Time complexity - O(n) -> n is the minimum number in both number
+
 //Optimized method 1 (euclidean algorithm)
 int gcd(int a, int b) {
     while(a!=b){
@@ -29,3 +31,4 @@ int gcd(int a, int b){
     return gcd(b,a%b);
 
 }
+//Time complexity - O(log(min(a,b)))

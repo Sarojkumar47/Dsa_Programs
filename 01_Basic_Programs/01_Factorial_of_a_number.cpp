@@ -10,6 +10,8 @@ long long int factorial(int N){
         return result;
     }
 
+    //Time complexity - O(n)
+
 
 
 // Using recursive approach
@@ -18,3 +20,6 @@ long long int factorial(int N){
         return 1;
     return N * factorial(N - 1);
     }
+
+    //Time complexity - O(n)
+    //Space complexity - O(n)

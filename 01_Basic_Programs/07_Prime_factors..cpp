@@ -15,6 +15,7 @@ void primeFactors(int n){
     if(n>1)
     cout<<n<<" ";
 }
+//Time complexity - O()
 
 
 //Optimized method

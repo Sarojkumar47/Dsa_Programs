@@ -9,3 +9,5 @@ int getTralingZeroes(int n){
     return result;
 
 }
+
+//Time complexity - O(logn)

@@ -10,6 +10,7 @@ int getLcm(int a, int b{
    }
 
 }
+// Time complexity - O(a*b-max(a,b)) --> n is the maximum number
 
 //Optimized method 1
 int gcd(int a, int b){
@@ -22,3 +23,5 @@ int gcd(int a, int b){
 int getLcm(int a, int b){
     return (a*b)/gcd(a,b);
 }
+
+//Time complexity - O(log(min(a,b)))

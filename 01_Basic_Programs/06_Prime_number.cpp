@@ -14,9 +14,10 @@ bool isPrime(int n){
 
     return true;
 }
+//Time complexity - O(n)
+
 
 //Optimized method 1
-
 bool isPrime(int n){
     if(n==1)
     return false;
@@ -29,9 +30,10 @@ bool isPrime(int n){
 
     return true;
 }
+//Time complexity - O(sqrt(n))
+
 
 //Optimized method 2
-
 bool isPrime(int n){
      if(n==1)
     return false;

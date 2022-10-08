@@ -13,4 +13,6 @@ bool isPalindrome(int n)
     return (reverse==n);
     
 }
+
+//Time complexity - O(d) - d is the total digit of number
  

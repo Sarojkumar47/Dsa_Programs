@@ -3,7 +3,7 @@
 for(int i =2;i<=n;i++){
     if(isPrime(i))   // calling prime function to check if it is prime or not
     cout<<i<<endl;
-}
+} 
 
 
 //Optimized method (seive algorithm)
